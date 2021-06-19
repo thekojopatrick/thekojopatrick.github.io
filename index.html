@@ -18,11 +18,14 @@
 		<a href="#top" class="scroll-top">
 			<img class="arrow-top" src="assets/img/arrow-down.svg" alt="arrow-top">
 		</a>
-		<header class="header" id="top">
+		<header class="header clip-path" id="top">
 			<div class="wrapper">
 				<div class="navigation">
 					<div class="navigation__brand">
 						<img src="assets/img/site-logo.svg" alt="Kojo Patrick" />
+					</div>
+					<div class="navigation__button">
+						<span class="navigation__icon"></span>
 					</div>
 					<nav class="navigation__nav">
 						<ul class="navigation__list">
@@ -56,8 +59,8 @@
 					</div>
 					<div class="hero-section__right">
 						<p class="hero__text">
-							Hi my name is Patrick. I design & build cool projects for startups.Based in Ghana focusing
-							on Frontend Dev and a little bit of UI/UX.
+							Hi my name is Patrick. I design & build cool projects for startups.
+							Based in Ghana focusing on Frontend Dev and a little bit of UI/UX.
 							Currently freelancing.
 						</p>
 					</div>
@@ -77,15 +80,10 @@
 										u-margin-top-sm u-margin-bottom-lg
 									">
 									<p class="project__description--body">
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-										Cupiditate, incidunt autem iure eos voluptatum sapiente
-										libero a atque facere laudantium! Dolor nisi voluptatem
-										possimus laboriosam, quam inventore voluptate nam
-										laudantium!
+										Spoke is a startup based in Paris,that helps individuals record,transcribe,summarize and share all their video-conversations in one place. 
 									</p>
 									<p class="project__description--sub">
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-										Cupiditate, incidunt autem iure eos voluptatum sapiente
+										Them, the client wanted to implement their landing page design using HTML/CSS,Rect & Typescript.
 									</p>
 								</div>
 								<a href="https://spoke.app/" target="_blank" class="project__link">View Project
@@ -113,19 +111,14 @@
 										u-margin-top-sm u-margin-bottom-lg
 									">
 									<p class="project__description--body">
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-										Cupiditate, incidunt autem iure eos voluptatum sapiente
-										libero a atque facere laudantium! Dolor nisi voluptatem
-										possimus laboriosam, quam inventore voluptate nam
-										laudantium!
+										Natours is an built while taking lessons on Advanced CSS and Sass course by Jonas Schmedtmann.
 									</p>
 									<p class="project__description--sub">
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-										Cupiditate, incidunt autem iure eos voluptatum sapiente
+										Credit to Jonas Schmedtmann.App built with only HTML/CSS & SASS
 									</p>
 								</div>
 								<a href="https://natours-thekojopatrick.vercel.app/" class="project__link"
-									target="_blank">View Project &rarr;</a>
+									target="_blank">[WIP] View Project &rarr;</a>
 							</div>
 							<div class="col-right">
 								<div class="project__image">
@@ -149,19 +142,14 @@
 										u-margin-top-sm u-margin-bottom-lg
 									">
 									<p class="project__description--body">
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-										Cupiditate, incidunt autem iure eos voluptatum sapiente
-										libero a atque facere laudantium! Dolor nisi voluptatem
-										possimus laboriosam, quam inventore voluptate nam
-										laudantium!
+										As a designer I have collaborated with couple of startups to help get an MVP design.Which some were implement and shipped to play store and google store,others are still in production or occupying space on their hard drive.
 									</p>
 									<p class="project__description--sub">
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-										Cupiditate, incidunt autem iure eos voluptatum sapiente
+										Projects designed using Figma.
 									</p>
 								</div>
 								<a href="https://dribbble.com/kojopatrick" target="_blank" class="project__link">View
-									More Project &rarr;</a>
+									More Projects &rarr;</a>
 							</div>
 							<div class="col-right">
 								<div class="project__image">
@@ -288,7 +276,20 @@
 				</nav>
 			</div>
 		</footer>
-
+		<div class="popup" id="popup">
+			<div class="popup__content">
+				<div class="popup__close">&times;</div>
+				<div class="popup__left">
+					<img src="assets/img/exclamation.svg"
+						alt="" class="popup__image">
+				</div>
+				<div class="popup__right">
+					<h2 class="popup__title">Uh oh,this just a quick notice</h2>
+					<p class="popup__text">Sorry! site still under construction,
+						if it's break just reload the page.If it's breaks again call the ambulance.lol</p>
+				</div>
+			</div>
+		</div>
 		<script src="./assets/js/vendors.js"></script>
 		<script src="./assets/js/app.js"></script>
 	</body>
