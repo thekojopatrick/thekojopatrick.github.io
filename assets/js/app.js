@@ -41,7 +41,7 @@ function removePopup() {
 				? (o.classList.add('fadeIn'), scrollTop.classList.add('show'))
 				: (o.classList.remove('fadeIn'), scrollTop.classList.remove('show'))
 		})
-	}),
-	window.addEventListener('DOMContentLoaded', function () {
-		showPopup(), removePopup()
 	})
+	// window.addEventListener('DOMContentLoaded', function () {
+	// 	showPopup(), removePopup()
+	// })
